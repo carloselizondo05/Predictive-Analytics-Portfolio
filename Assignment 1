@@ -1,17 +1,1 @@
-# Assignment 1: [Insert Topic, e.g., Data Wrangling]
 
-## 🎯 Objective
-Briefly describe what problem you were trying to solve in this assignment.
-
-## 🛠️ Methodology
-* **Data Source:** Where did the data come from?
-* **Tools used:** (e.g., Python, Pandas, Matplotlib, or R)
-* **Technique:** (e.g., Linear Regression, Data Cleaning, ETL)
-
-## 🗝️ Key Insights
-* **Finding 1:** What was the most interesting thing you found?
-* **Finding 2:** How does this impact a business decision?
-
-## 📂 Files in this folder
-* `analysis_code.py` - The main script used for the project.
-* `dataset_summary.csv` - The processed data output.

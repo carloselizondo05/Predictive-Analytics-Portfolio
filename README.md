@@ -49,7 +49,16 @@ Six models were trained and compared across three feature strategies — full fe
   <img src="./CIND119/CIND119_Bank_Project/feature_importance.png" width="500" title="Consensus Feature Selection">
   <br><em>Figure 1: 4-Method Consensus Feature Selection (The Golden Ticket)</em>
 </p>
-A reverse-causality stress test was conducted by removing call duration from the model — confirming it as a leaky pre-call feature — with recall dropping from 78.85% to 54.81% in the duration-excluded configuration. A supplementary K-Means segmentation (k=4, 9 features) produced four actionable customer personas, with Cluster 2 identified as the primary target group at a 19.6% subscription rate, and Cluster 3 flagged for campaign cessation due to a 3.0% success rate and average of 12.8 prior contact attempts.
+A reverse-causality stress test was conducted by removing call duration from the model — confirming it as a leaky pre-call feature — with recall dropping from 78.85% to 54.81% in the duration-excluded configuration.
+
+> **Insight:** Including `duration` creates an artificially high performance because it is a "leaky" feature. Our stress test showed that while the model looks better with it, a real-world predictive model (duration-excluded) drops in recall from 78.85% to 54.81%.
+
+<p align="center">
+  <img src="./CIND119/CIND119_Bank_Project/leak_comparison_chart.png" width="600">
+  <br><em>Figure 3: Impact of removing "Leaky" Call Duration on Model Recall</em>
+</p>
+
+A supplementary K-Means segmentation (k=4, 9 features) produced four actionable customer personas, with Cluster 2 identified as the primary target group at a 19.6% subscription rate, and Cluster 3 flagged for campaign cessation due to a 3.0% success rate and average of 12.8 prior contact attempts.
 
 **Tech stack:** Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn), SQL (pandasql), Jupyter Notebook
 

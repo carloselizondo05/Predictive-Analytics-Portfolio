@@ -4,6 +4,7 @@
 > An introduction to big data concepts and machine learning methods, covering unsupervised clustering, supervised classification, and database querying applied to real-world datasets.
 
 ---
+
 ## 🛠 Skills & Tools
 **Languages:** Python, SAS, SQL  
 **Libraries:** Pandas, NumPy, Scikit-learn, PandasSQL, Matplotlib, Seaborn  
@@ -11,6 +12,7 @@
 **Software:** Jupyter Notebook, SAS Studio, SQLite Studio
 
 ---
+
 ## 📚 Assignments
 
 ### [Assignment 1: K-Means Cluster Analysis](./CIND119/CIND119%20A1/Cind119_A1_Code_Outputs.pdf)
@@ -35,7 +37,7 @@
 
 ---
 
-### Group Project: Bank Telemarketing Subscription Prediction — Classification & Customer Segmentation
+## Group Project: Bank Telemarketing Subscription Prediction
 ![Group](https://img.shields.io/badge/type-Group-2e7d32)
 
 **Overview:** Built a full machine learning pipeline on a Portuguese bank's telemarketing dataset (4,521 records, 17 attributes) to identify customers most likely to subscribe to a long-term deposit product — supporting a data-driven shift away from broad, untargeted phone campaigns.

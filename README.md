@@ -13,29 +13,7 @@
 
 ---
 
-## 📚 Assignments
-
-### [Assignment 1: K-Means Cluster Analysis](./CIND119/CIND119%20A1/Cind119_A1_Report.pdf)
-![Individual](https://img.shields.io/badge/type-Individual-1565c0)
-
-**Overview:** Applied unsupervised machine learning to a clinical cardiovascular dataset containing 13 patient attributes to identify natural groupings without relying on known diagnoses. Imported and explored the data in SAS, performed descriptive statistics, and standardized numerical features before clustering. Ran K-Means across four configurations (k=2 through k=5) using SAS's FASTCLUS procedure, evaluated each solution using RMS Standard Deviation, and selected the optimal cluster count based on that metric. Visualized cluster assignments against the original diagnostic labels using cholesterol vs. age scatter plots to assess separation quality.
-
-**Tech stack:** SAS (PROC IMPORT, PROC MEANS, PROC STDIZE, FASTCLUS)
-
-**Key result:** Identified the optimal k value through systematic evaluation, with cluster visualizations revealing distinguishable patient groupings along age and cholesterol dimensions.
-
----
-
-### [Assignment 2: Retail Inventory Querying](./CIND119/CIND119%20A2/Assignment_2_CIND119_CarlosElizondo.pdf)
-![Individual](https://img.shields.io/badge/type-Individual-1565c0)
-
-**Overview:** Designed and populated a relational database from scratch in SQLite Studio using a 15-record retail product dataset spanning five product categories. Wrote and executed five SQL queries addressing practical business questions — including category-level filtering, average price calculation, quantity-based selection, and total revenue aggregation per category. Focused on translating raw transactional data into structured, queryable intelligence using standard SQL operations.
-
-**Tech stack:** SQLite, SQLite Studio, SQL (SELECT, WHERE, GROUP BY, aggregate functions)
-
-**Key result:** Demonstrated end-to-end database setup and querying workflow, computing per-category revenue and surfacing pricing and inventory patterns across product lines.
-
----
+## 📂 Featured Projects
 
 ## Group Project: Bank Telemarketing Subscription Prediction
 ![Group](https://img.shields.io/badge/type-Group-2e7d32)
@@ -79,6 +57,29 @@ The consensus-optimized Decision Tree achieved the best F1-score across all six 
 ## Project Deliverables:
 * [🐍 View Jupyter Notebook](./CIND119/CIND119_Bank_Project/CIND119_Final_Project_Notebook.ipynb)
 * [📊 View Final Presentation (PDF)](./CIND119/CIND119_Bank_Project/Bank_Final_Presentation.pdf)
+
+---
+
+### [Assignment 1: K-Means Cluster Analysis](./CIND119/CIND119%20A1/Cind119_A1_Report.pdf)
+![Individual](https://img.shields.io/badge/type-Individual-1565c0)
+
+**Overview:** Applied unsupervised machine learning to a clinical cardiovascular dataset containing 13 patient attributes to identify natural groupings without relying on known diagnoses. Imported and explored the data in SAS, performed descriptive statistics, and standardized numerical features before clustering. Ran K-Means across four configurations (k=2 through k=5) using SAS's FASTCLUS procedure, evaluated each solution using RMS Standard Deviation, and selected the optimal cluster count based on that metric. Visualized cluster assignments against the original diagnostic labels using cholesterol vs. age scatter plots to assess separation quality.
+
+**Tech stack:** SAS (PROC IMPORT, PROC MEANS, PROC STDIZE, FASTCLUS)
+
+**Key result:** Identified the optimal k value through systematic evaluation, with cluster visualizations revealing distinguishable patient groupings along age and cholesterol dimensions.
+
+---
+
+### [Assignment 2: Retail Inventory Querying](./CIND119/CIND119%20A2/Assignment_2_CIND119_CarlosElizondo.pdf)
+![Individual](https://img.shields.io/badge/type-Individual-1565c0)
+
+**Overview:** Designed and populated a relational database from scratch in SQLite Studio using a 15-record retail product dataset spanning five product categories. Wrote and executed five SQL queries addressing practical business questions — including category-level filtering, average price calculation, quantity-based selection, and total revenue aggregation per category. Focused on translating raw transactional data into structured, queryable intelligence using standard SQL operations.
+
+**Tech stack:** SQLite, SQLite Studio, SQL (SELECT, WHERE, GROUP BY, aggregate functions)
+
+**Key result:** Demonstrated end-to-end database setup and querying workflow, computing per-category revenue and surfacing pricing and inventory patterns across product lines.
+
 ---
 
 ## ⚠️ Limitations & Future Work

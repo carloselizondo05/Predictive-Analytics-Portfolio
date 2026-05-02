@@ -4,7 +4,13 @@
 > An introduction to big data concepts and machine learning methods, covering unsupervised clustering, supervised classification, and database querying applied to real-world datasets.
 
 ---
+## 🛠 Skills & Tools
+**Languages:** Python, SAS, SQL  
+**Libraries:** Pandas, NumPy, Scikit-learn, PandasSQL, Matplotlib, Seaborn  
+**Techniques:** K-Means Clustering, Predictive Modeling (Decision Trees, Naïve Bayes), Feature Engineering, EDA, SQL Querying  
+**Software:** Jupyter Notebook, SAS Studio, SQLite Studio
 
+---
 ## 📚 Assignments
 
 ### [Assignment 1: K-Means Cluster Analysis](./CIND119/CIND119%20A1/Cind119_A1_Code_Outputs.pdf)

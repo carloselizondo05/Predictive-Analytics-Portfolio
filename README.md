@@ -46,10 +46,10 @@ A supplementary K-Means segmentation (k=4, 9 features) produced four actionable 
 The consensus-optimized Decision Tree achieved the best F1-score across all six models (0.4518), with 78.85% recall and 22.13% FPR. Business recommendations included prioritizing customers with prior campaign success (64.3% conversion rate) and targeting calls toward the ~10-minute engagement threshold identified as the inflection point for subscription likelihood.
 > **Key Result:** The **Optimized Decision Tree** (using the 13-feature consensus set) achieved the best balance of performance, specifically improving the **F1-Score to 0.4518** and maintaining a high **Recall (78.85%)**.
 <p align="center">
-  <img src="./CIND119/CIND119_Bank_Project/model_comparison.png" width="400" alt="Model Comparison" />
-  <img src="./CIND119/CIND119_Bank_Project/customer_persona.png" width="400" alt="Customer Persona" />
+  <img src="./CIND119/CIND119_Bank_Project/model_comparison.png" width="48%" alt="Model Comparison" />
+  <img src="./CIND119/CIND119_Bank_Project/customer_persona.png" width="48%" alt="Customer Persona" />
   <br>
-  <em>Figure 3 & 4: Model Comparison across metrics | Cluster 2 Ideal Customer Persona </em>
+  <em>Figure 3 & 4: Model Comparison across metrics (Left) | Cluster 2 Ideal Customer Persona (Right)</em>
 </p>
 
 ---

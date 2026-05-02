@@ -1,8 +1,4 @@
-# CIND119 — Introduction to Big Data Analytics
-**Toronto Metropolitan University** · Winter 2025
-
-> An introduction to big data concepts and machine learning methods, covering unsupervised clustering, supervised classification, and database querying applied to real-world datasets.
-
+# Predictive Analytics Portfolio
 ---
 
 ## 🛠 Skills & Tools

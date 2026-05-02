@@ -7,7 +7,7 @@
 
 ## 📚 Assignments
 
-### Assignment 1: K-Means Cluster Analysis on Cardiovascular Disease Indicators
+### [Assignment 1: K-Means Cluster Analysis](./CIND119/CIND119%20A1/Cind119_A1_Code_Outputs.pdf)
 ![Individual](https://img.shields.io/badge/type-Individual-1565c0)
 
 **Overview:** Applied unsupervised machine learning to a clinical cardiovascular dataset containing 13 patient attributes to identify natural groupings without relying on known diagnoses. Imported and explored the data in SAS, performed descriptive statistics, and standardized numerical features before clustering. Ran K-Means across four configurations (k=2 through k=5) using SAS's FASTCLUS procedure, evaluated each solution using RMS Standard Deviation, and selected the optimal cluster count based on that metric. Visualized cluster assignments against the original diagnostic labels using cholesterol vs. age scatter plots to assess separation quality.
@@ -18,7 +18,7 @@
 
 ---
 
-### Assignment 2: Retail Inventory Querying with SQLite
+### [Assignment 2: Retail Inventory Querying](./CIND119/CIND119%20A2/Assignment_2_CIND119_CarlosElizondo.pdf)
 ![Individual](https://img.shields.io/badge/type-Individual-1565c0)
 
 **Overview:** Designed and populated a relational database from scratch in SQLite Studio using a 15-record retail product dataset spanning five product categories. Wrote and executed five SQL queries addressing practical business questions — including category-level filtering, average price calculation, quantity-based selection, and total revenue aggregation per category. Focused on translating raw transactional data into structured, queryable intelligence using standard SQL operations.
@@ -44,6 +44,9 @@ Six models were trained and compared across three feature strategies — full fe
 
 **Key result:** The consensus-optimized Decision Tree achieved the best F1-score across all six models (0.4518), with 78.85% recall and 22.13% FPR. Business recommendations included prioritizing customers with prior campaign success (64.3% conversion rate) and targeting calls toward the ~10-minute engagement threshold identified as the inflection point for subscription likelihood.
 
+**Project Deliverables:**
+* [🐍 View Jupyter Notebook](./CIND119_Bank_Project/CIND119_Final_Project_Notebook.ipynb)
+* [📊 View Final Presentation (PPTX)](./CIND119_Bank_Project/CIND119_Final-Presentation.pptx)
 ---
 
 ## ⚠️ Limitations & Future Work

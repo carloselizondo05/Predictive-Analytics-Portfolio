@@ -15,7 +15,7 @@
 
 ## 📚 Assignments
 
-### [Assignment 1: K-Means Cluster Analysis](./CIND119/CIND119%20A1/Cind119_A1_Code_Outputs.pdf)
+### [Assignment 1: K-Means Cluster Analysis](./CIND119/CIND119%20A1/Cind119_A1_Report.pdf)
 ![Individual](https://img.shields.io/badge/type-Individual-1565c0)
 
 **Overview:** Applied unsupervised machine learning to a clinical cardiovascular dataset containing 13 patient attributes to identify natural groupings without relying on known diagnoses. Imported and explored the data in SAS, performed descriptive statistics, and standardized numerical features before clustering. Ran K-Means across four configurations (k=2 through k=5) using SAS's FASTCLUS procedure, evaluated each solution using RMS Standard Deviation, and selected the optimal cluster count based on that metric. Visualized cluster assignments against the original diagnostic labels using cholesterol vs. age scatter plots to assess separation quality.

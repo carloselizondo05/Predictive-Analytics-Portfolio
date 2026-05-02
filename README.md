@@ -1,9 +1,11 @@
 # Predictive Analytics Portfolio
----
-## CIND123 — Data Analytics: Basic Methods
-**Toronto Metropolitan University** · Winter 2026
 
-> Covers foundational statistical and analytical methods for data science, including probability distributions, regression modeling, correlation analysis, and simulation techniques applied to real-world datasets.
+---
+
+# CIND119 — Introduction to Big Data Analytics
+**Toronto Metropolitan University** · Winter 2025
+
+> An introduction to big data concepts and machine learning methods, covering unsupervised clustering, supervised classification, and database querying applied to real-world datasets.
 
 ---
 

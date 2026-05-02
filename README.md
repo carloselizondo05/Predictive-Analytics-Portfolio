@@ -44,15 +44,29 @@
 
 The dataset presented a significant class imbalance (88.5% non-subscribers vs. 11.5% subscribers), making accuracy an unreliable primary metric and elevating recall and false positive rate as the key evaluation criteria. Missing values were handled through cross-attribute frequency imputation, financial variables were log-transformed to satisfy Gaussian assumptions for Naïve Bayes, and nominal attributes were one-hot encoded to prevent false ordinal relationships.
 
-Six models were trained and compared across three feature strategies — full feature set (29 features), DT-selected (13), and a 4-method consensus set (13 features validated across correlation, Decision Tree Gini importance, Naïve Bayes permutation importance, and Chi-Square). A reverse-causality stress test was conducted by removing call duration from the model — confirming it as a leaky pre-call feature — with recall dropping from 78.85% to 54.81% in the duration-excluded configuration. A supplementary K-Means segmentation (k=4, 9 features) produced four actionable customer personas, with Cluster 2 identified as the primary target group at a 19.6% subscription rate, and Cluster 3 flagged for campaign cessation due to a 3.0% success rate and average of 12.8 prior contact attempts.
+Six models were trained and compared across three feature strategies — full feature set (29 features), DT-selected (13), and a 4-method consensus set (13 features validated across correlation, Decision Tree Gini importance, Naïve Bayes permutation importance, and Chi-Square). 
+<p align="center">
+  <img src="./CIND119/CIND119_Bank_Project/feature_importance.png" width="500" title="Consensus Feature Selection">
+  <br><em>Figure 1: 4-Method Consensus Feature Selection (The Golden Ticket)</em>
+</p>
+A reverse-causality stress test was conducted by removing call duration from the model — confirming it as a leaky pre-call feature — with recall dropping from 78.85% to 54.81% in the duration-excluded configuration. A supplementary K-Means segmentation (k=4, 9 features) produced four actionable customer personas, with Cluster 2 identified as the primary target group at a 19.6% subscription rate, and Cluster 3 flagged for campaign cessation due to a 3.0% success rate and average of 12.8 prior contact attempts.
 
 **Tech stack:** Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn), SQL (pandasql), Jupyter Notebook
 
 **My contribution:** Predictive modelling pipeline, 4-method consensus feature selection system, reverse-causality stress test, K-Means segmentation, report authoring.
 
-**Key result:** The consensus-optimized Decision Tree achieved the best F1-score across all six models (0.4518), with 78.85% recall and 22.13% FPR. Business recommendations included prioritizing customers with prior campaign success (64.3% conversion rate) and targeting calls toward the ~10-minute engagement threshold identified as the inflection point for subscription likelihood.
+**Key result:** 
+The consensus-optimized Decision Tree achieved the best F1-score across all six models (0.4518), with 78.85% recall and 22.13% FPR. Business recommendations included prioritizing customers with prior campaign success (64.3% conversion rate) and targeting calls toward the ~10-minute engagement threshold identified as the inflection point for subscription likelihood.
+> **Key Result:** The **Optimized Decision Tree** (using the 13-feature consensus set) achieved the best balance of performance, specifically improving the **F1-Score to 0.4518** and maintaining a high **Recall (78.85%)**.
+<p align="center">
+  <img src="./CIND119/CIND119_Bank_Project/model_comparison.png" width="450">
+  <img src="./CIND119/CIND119_Bank_Project/customer_persona.png" width="450">
+  <br><em>Left: Model Comparison across metrics | Right: Cluster 2 (Ideal Customer) Persona</em>
+</p>
 
-**Project Deliverables:**
+---
+
+## Project Deliverables:
 * [🐍 View Jupyter Notebook](./CIND119_Bank_Project/CIND119_Final_Project_Notebook.ipynb)
 * [📊 View Final Presentation (PDF)](./CIND119/CIND119_Bank_Project/Bank_Final_Presentation.pdf)
 ---

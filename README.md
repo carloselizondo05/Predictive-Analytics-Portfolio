@@ -55,7 +55,7 @@ A reverse-causality stress test was conducted by removing call duration from the
 
 <p align="center">
   <img src="./CIND119/CIND119_Bank_Project/leak_comparison_chart.png" width="600">
-  <br><em>Figure 3: Impact of removing "Leaky" Call Duration on Model Recall</em>
+  <br><em>Figure 2: Impact of removing "Leaky" Call Duration on Model Recall</em>
 </p>
 
 A supplementary K-Means segmentation (k=4, 9 features) produced four actionable customer personas, with Cluster 2 identified as the primary target group at a 19.6% subscription rate, and Cluster 3 flagged for campaign cessation due to a 3.0% success rate and average of 12.8 prior contact attempts.
@@ -68,15 +68,16 @@ A supplementary K-Means segmentation (k=4, 9 features) produced four actionable 
 The consensus-optimized Decision Tree achieved the best F1-score across all six models (0.4518), with 78.85% recall and 22.13% FPR. Business recommendations included prioritizing customers with prior campaign success (64.3% conversion rate) and targeting calls toward the ~10-minute engagement threshold identified as the inflection point for subscription likelihood.
 > **Key Result:** The **Optimized Decision Tree** (using the 13-feature consensus set) achieved the best balance of performance, specifically improving the **F1-Score to 0.4518** and maintaining a high **Recall (78.85%)**.
 <p align="center">
-  <img src="./CIND119/CIND119_Bank_Project/model_comparison.png" width="450">
-  <img src="./CIND119/CIND119_Bank_Project/customer_persona.png" width="450">
-  <br><em>Left: Model Comparison across metrics | Right: Cluster 2 (Ideal Customer) Persona</em>
+  <img src="./CIND119/CIND119_Bank_Project/model_comparison.png" width="400" alt="Model Comparison" />
+  <img src="./CIND119/CIND119_Bank_Project/customer_persona.png" width="400" alt="Customer Persona" />
+  <br>
+  <em>Figure 3 & 4: Model Comparison across metrics | Cluster 2 Ideal Customer Persona </em>
 </p>
 
 ---
 
 ## Project Deliverables:
-* [🐍 View Jupyter Notebook](./CIND119_Bank_Project/CIND119_Final_Project_Notebook.ipynb)
+* [🐍 View Jupyter Notebook](./CIND119/CIND119_Bank_Project/CIND119_Final_Project_Notebook.ipynb)
 * [📊 View Final Presentation (PDF)](./CIND119/CIND119_Bank_Project/Bank_Final_Presentation.pdf)
 ---
 

@@ -46,7 +46,7 @@ Six models were trained and compared across three feature strategies — full fe
 
 **Project Deliverables:**
 * [🐍 View Jupyter Notebook](./CIND119_Bank_Project/CIND119_Final_Project_Notebook.ipynb)
-* [📊 View Final Presentation (PPTX)](./CIND119_Bank_Project/CIND119_GROUP-2_Final-Presentation.pptx.pdf)
+* [📊 View Final Presentation (PPTX)](./CIND119/CIND119_Bank_Project/CIND119_GROUP-2_Final-Presentation.pptx.pdf)
 ---
 
 ## ⚠️ Limitations & Future Work

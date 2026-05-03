@@ -19,7 +19,7 @@
 
 ## 📂 Featured Projects
 
-## Group Project: Bank Telemarketing Subscription Prediction
+## [Group Project: Bank Telemarketing Subscription Prediction](./CIND119/CIND119_Bank_Project/Bank_Final_Presentation.pdf)
 ![Group](https://img.shields.io/badge/type-Group-2e7d32)
 
 **Overview:** Built a full machine learning pipeline on a Portuguese bank's telemarketing dataset (4,521 records, 17 attributes) to identify customers most likely to subscribe to a long-term deposit product — supporting a data-driven shift away from broad, untargeted phone campaigns.
